@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="base-div">
+        <h1>Enter Payment Details</h1>
+        <div>
+            <h2>Accepted Credit Cards</h2>
+            <p>We accept Visa, Mastercard</p>
+            <img src="./img/image.png" alt="card logo">
+        </div>
+        <div>
+            <h2>Payment Information</h2>
+            <form action="#">
+                <label for="card-number">Card Number</label> <br>
+                <input type="text" id="credit-card" placeholder="1234 1234 1234 1234" maxlength="19"> <br>
+
+                <div class="exp-div">
+                <label for="expiration-data">Expiration Date</label> <br>
+                <input type="text"  id="expiration-data" placeholder="MM/YY" maxlength="5">
+                </div>
+
+                <div class="cvc-div">
+                    <label for="CVC">CVC</label> <br>
+                    <input type="text" id="cvc" placeholder="CVC" maxlength="3">
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
